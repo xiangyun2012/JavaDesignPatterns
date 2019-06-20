@@ -8,6 +8,7 @@ public class Farmer implements Person {
 
     @Override
     public int sellsApples() {
+        System.out.println("Farmer sellsApples:"+5);
         return 5;
     }
 }
